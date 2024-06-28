@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import json
 import datetime
-Async= Bot.commands(command_prefix="$",intents = discord.Intents.all()
+ghosty= Bot.commands(command_prefix="$",intents = discord.Intents.all()
 
 ravanxGhostyxsanemixvoidxAdityaXasyncdevxcosmicdevtoken="your token here"
 def loadafksghosty():
@@ -200,4 +200,4 @@ async def on_message(message):
             saveafksghosty()
 
     await ghosty.process_commands(message)
-Async.run(ravanxGhostyxsanemixvoidxAdityaXasyncdevxcosmicdevtoken)
+ghosty.run(ravanxGhostyxsanemixvoidxAdityaXasyncdevxcosmicdevtoken)
